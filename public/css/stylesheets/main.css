@@ -1,0 +1,224 @@
+/* COLORS
+
+Navigation
+ - fb9c06
+ - 6e6d6b
+ -nav-bar
+    - c3c1c1
+HEADER
+ - 37 Font
+     -fb9c06
+        -4f4919
+     -6e6d6b
+        ffc546
+
+
+
+*/
+
+
+/***************/
+
+
+/***GENERAL******/
+
+
+/***************/
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Lato', 'sans-serif';
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/***************/
+
+
+/***NAV - HEADER******/
+
+
+/***************/
+
+header {
+    text-align: center;
+}
+
+nav {
+    display: block;
+    padding: 5px 20px 30px 5px;
+}
+
+nav ul {
+    padding-top: 20px;
+    display: inline-block;
+    float: right;
+    width: 47%;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 18%;
+    padding: 5px;
+    list-style: none;
+}
+
+nav ul li img {
+    display: block;
+    color: #c3c1c1;
+}
+
+nav ul li a {
+    text-align: center;
+    display: block;
+    padding: 20px 0 8px 0;
+    font-size: 22px;
+    color: #c3c1c1;
+    font-weight: 700;
+}
+
+.brand-logo-container {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+
+.brand-logo {
+    display: inline-block;
+    width: 20%;
+}
+
+.brand-header {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+.brand-logo-over-title {
+    font-size: 37px;
+    color: #fb9c06;
+    padding: 25px 5px 18px 0;
+}
+
+.brand-logo-title {
+    font-size: 37px;
+    color: #6e6d6b;
+    text-transform: uppercase;
+    padding: 15px;
+    font-weight: 700;
+}
+
+
+/***************/
+
+
+/**HEADER*/
+
+
+/***************/
+
+header {
+    border-top: 1px solid #fb9c06;
+    border-bottom: 1px solid #fb9c06;
+    margin-top: 100px;
+    padding: 6rem;
+    color: white;
+    background-image: url("/public/img/orange-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-box {}
+
+header h1 {
+    padding: 12px 18px;
+    font-size: 37px;
+    text-transform: uppercase;
+    width: 40%;
+    color: black;
+    word-spacing: -.15rem;
+}
+
+.header-1 {
+    color: #fb9c06;
+    background-color: rgba(78, 71, 23, 0.87);
+    margin-bottom: -17px;
+}
+
+.header-2 {
+    color: #6e6d6b;
+    background-color: rgba(255, 196, 70, 0.94);
+}
+
+
+/*--------------------------------------------*/
+
+
+/**CTA*/
+
+
+/***********************************************/
+
+#cta {
+    padding: 28px 0 20px 0;
+}
+
+.col-span-1-of-4 {
+    display: inline-block;
+    width: 24.5%;
+    padding: 8px 20px;
+}
+
+#cta p {
+    line-height: 1.3rem;
+    font-weight: 700;
+}
+
+#cta a {
+    float: right;
+    padding: 9px;
+    color: #fb9c06;
+}
+
+hr {
+    border-color: rgba(212, 212, 212, 0.18);
+}
