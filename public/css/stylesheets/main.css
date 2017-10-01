@@ -400,9 +400,12 @@ footer p {
         font-size: 28px;
         width: 70%;
     }
+    footer p {
+        font-size: 18px;
+    }
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 480px) {
     .col-span-1-of-4 {
         display: block;
         width: 95%;
