@@ -161,7 +161,7 @@ header {
     margin-top: 100px;
     padding: 6rem;
     color: white;
-    background-image: url("/public/img/orange_background.jpg");
+    background-image: url("https://images.unsplash.com/photo-1485381473713-c6131409c0be?dpr=1&auto=compress,format&fit=crop&w=1310&h=&q=80&cs=tinysrgb&crop=");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
