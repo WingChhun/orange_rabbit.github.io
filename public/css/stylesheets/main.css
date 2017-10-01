@@ -349,3 +349,83 @@ footer p {
         width: 32.5%;
     }
 }
+
+@media screen and (max-width:900px) {
+    .span-1-of-3 img {
+        width: 80%;
+    }
+    header h1 {
+        width: 45%;
+        font-size: 30px;
+    }
+    footer p {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .col-span-1-of-4 {
+        width: 48%;
+    }
+    .span-1-of-3 img {
+        width: 80%;
+    }
+    header h1 {
+        width: 50%;
+        font-size: 28px;
+    }
+    footer p {
+        font-size: 20px;
+    }
+    button {
+        font-size: 20px;
+    }
+    label {
+        font-size: 20px;
+        padding-left: 8px;
+    }
+    input {
+        padding-left: 5px;
+        display: block;
+        width: 95%;
+        margin: 0 auto;
+    }
+    button {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    header h1 {
+        font-size: 28px;
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 468px) {
+    .col-span-1-of-4 {
+        display: block;
+        width: 95%;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 1.3rem;
+    }
+    .col-span-1-of-4 a {
+        text-align: center;
+        width: 100%;
+    }
+    .span-1-of-3 {
+        display: block;
+        width: 95%;
+    }
+    button {
+        font-size: 20px;
+    }
+    footer p {
+        font-size: 15px;
+    }
+    header h1 {
+        width: 80%;
+        font-size:20px;
+    }
+}
