@@ -254,6 +254,10 @@ HEADER
     /***CONTACT*/
     /***************/
     
+    #burger-nav {
+        display: none;
+    }
+    
     form {
         overflow: auto;
     }
