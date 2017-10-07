@@ -382,13 +382,76 @@ footer
         }
     }
     
+    @media only screen and (max-width:600px) {
+        nav {
+            padding: 10px 2px;
+        }
+        nav ul {
+            overflow: hidden;
+            background: rgba(244, 149, 0, 0.19);
+            display: block;
+            width: 100%;
+            text-align: left;
+            float: none;
+            padding: 5px 8px;
+            border-top: 2px solid #fb9c06;
+            height: 0;
+            visibility: hidden;
+            transition: height 0.75s ease;
+        }
+        nav ul.open {
+            height: 320px;
+            visibility: visible;
+            transition: height .75s ease-in;
+        }
+        header {
+            margin-top: 0;
+        }
+        nav ul li {
+            display: block;
+            border-bottom: 2px solid #fb9c06;
+            width: 100%;
+        }
+        nav ul li a {
+            text-align: left;
+            width: 100%;
+        }
+        nav ul li img {
+            display: none;
+        }
+        .brand-logo-container {
+            display: block;
+            width: 100%;
+            padding: 20px 5px;
+        }
+        .brand-header {
+            width: 40%;
+            text-align: center;
+        }
+        .brand-logo-over-title {
+            text-align: center;
+        }
+        .brand-logo-title {
+            text-align: center;
+        }
+        #burger-nav {
+            display: block;
+            margin-top: 20px;
+            color: #fb9c06;
+            float: right;
+            padding: 15px;
+            font-size: 3.5rem;
+            visibility: visible;
+        }
+        footer p {
+            font-size: 14px;
+        }
+    }
+    
     @media only screen and (max-width: 568px) {
         header h1 {
             font-size: 28px;
             width: 70%;
-        }
-        footer p {
-            font-size: 18px;
         }
         .brand-header {
             width: 30%;
@@ -414,68 +477,12 @@ footer
         button {
             font-size: 20px;
         }
-        footer p {
-            font-size: 15px;
-        }
         header h1 {
             width: 80%;
             font-size: 20px;
         }
-        nav {
-            padding: 10px 2px;
-        }
-        nav ul {
-            overflow: hidden;
-            background: rgba(244, 149, 0, 0.19);
-            display: block;
-            width: 100%;
-            text-align: left;
-            float: none;
-            padding: 5px 8px;
-            border-top: 2px solid #fb9c06;
-            height: 0;
-            visibility: hidden;
-        }
-        nav ul.open {
-            height: auto;
-            visibility: visible;
-        }
-        header {
-            margin-top: 0;
-        }
-        nav ul li {
-            display: block;
-            border-bottom: 2px solid #fb9c06;
-            width: 100%;
-        }
-        nav ul li a {
-            text-align: left;
-            width: 100%;
-        }
-        nav ul li img {
-            display: none;
-        }
-        .brand-logo-container {
-            display: block;
-            width: 100%;
-            right;
-            padding: 20px 5px;
-        }
         .brand-header {
-            width: 40%;
-            text-align: center;
-        }
-        .brand-logo-title {
-            text-align: center;
-        }
-        #burger-nav {
-            display: block;
-            margin-top: 20px;
-            color: #fb9c06;
-            float: right;
-            padding: 15px;
-            font-size: 3.5rem;
-            visibility: visible;
+            margin-left: 5%;
         }
     }
     
